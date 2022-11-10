@@ -1,124 +1,122 @@
 *{
-    margin: 0;
-    padding: 0;
-    background-color: rgba(22, 89, 205, 0.982);
+    background-color: rgb(40, 175, 146);
 }
 #h1{
-    font-family: 'Times New Roman', Times, serif;
+    color: palegoldenrod;
+    font-family: 'Times New Roman', Times, sans-serif;
 }
 
-#h3{
-    color: pink;
+h3{
+    background-color: green;
 }
-.sec p {
-    text-align: center;
-}
-
 h3:hover{
-    color:lightseagreen;
+    color: mediumpurple;
 }
-input:in-range {
-    border: 7px solid rgb(144, 21, 37);
-    border-radius: 1px;
-  }
-.code{
-    border:2px solid rgb(240, 27, 55);
-}
-a:active{
-    background-color: coral;
-}
-input:focus{
-    color:blueviolet
-}
+
 p:first-child{
-    background-color:deeppink;
+    font-size: xx-large;
+    font-weight: bold;
 }
 p::first-letter{
-    font-size:xx-large;
+    background-color: mediumvioletred;
 }
-h3::first-line{
-    font-style: italic;
+
+
+h1::first-line{
+    font-weight: 500;
 }
-p::before{
-    content:"Paragraph tag : ";
+h1:hover{
+    background-color: greenyellow;
+}
+
+a:active{
+    color: mediumaquamarine;
 }
 p::after{
-    content:"      - IMportant!";
+    content: " .USING AFTER";
 }
-p:empty{
-    background-color: wheat;
-}
-button{
-    border-radius: 3px;
-    background-color: aqua;
-    border: 1px solid black;
-    font-size: larger;
-}
-input[type="text"]{
-    width:40%;
-}
-div > p{
-    background-color: rgb(223, 236, 45);
-}
-p::first-letter{
-    font-weight:bolder;
-    color: rgb(183, 25, 54);
-    text-transform: capitalize;
-}
-input[type=text]:enabled{
-    background-color: rgb(77, 186, 13);
+p::before{
+    content: "Paragraph Tag: ";
 }
 
-option:default{
-    box-shadow: 0 0 1px 1px rgb(35, 21, 236);
+
+h1,h2,p{
+    color: indigo;
 }
-input:checked{
-    height:20%;
-    width:20%;
+
+#adres{
+    margin: 0;
+    padding: 0;
+    color: lawngreen;
 }
-button:hover{
-    color:white;
-    background-color: brown;
+li
+{
+    font-size: x-large;
 }
-#address a{
-    text-decoration:none;
-    color: rgb(236, 23, 73);
-    font-size: larger;
+li a{
+    background-color: lightcoral;
 }
-h3,h4,h5,h6{
-    text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
+
+
+div > strong{
+    background-color: lightpink;
+}
+
+
+h2 .h{
+    background-color: lightseagreen;
+}
+
+#divv1{
+    background-color: indigo;
+    color: lightgreen;
+}
+
+
+
+audio{
+    border: 7px solid black;
+}
+
+img ~ figcaption{
+    border: 7px solid black;
+}
+
+
+a:visited{
+    background-color: lightslategray;
 }
 li[type="a"]{
-    font-size: larger;
+    background-color: hotpink;
+    border: 3px dotted rgb(19, 20, 18);
 }
 li[type="b"]{
-    font-size:medium;
+    background-color: rgb(86, 167, 54);
+    border: 3px dotted rgb(19, 20, 18);
 }
 li[type="c"]{
-    font-size: small;
+    background-color: rgb(15, 62, 120);
+    border: 3px dotted rgb(19, 20, 18);
 }
 li[type="d"]{
-    font-size: smaller;
+    background-color: rgb(95, 7, 51);
+    border: 3px dotted rgb(19, 20, 18);
 }
-[lang="ar"]{
-    color: brown;
-}
-[lang="pt"]{
-    color:blue;
-}
-[lang="ch"]{
-    color:chartreuse;
-}
-.d_tags{
-    text-indent: 2px;
-    padding-top: 10px;
-    outline: 2px;
-    outline-color: lightcoral;
+li[type="e"]{
+    background-color: rgb(14, 104, 47);
+    border: 3px dotted rgb(19, 20, 18);
 }
 
 
-.table td{
-    color: crimson;
-    font-size: larger;
+#tt{
+    font-size: xx-large;
+}
+
+#divtag{
+    border: 5px solid sienna;
+}
+
+
+.e{
+    background-color: rebeccapurple;
 }
